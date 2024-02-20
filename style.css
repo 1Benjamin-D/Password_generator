@@ -1,0 +1,141 @@
+@font-face {
+    font-family: pacifico;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: dokdo;
+    src: url(./fonts/Dokdo-Regular.ttf);
+}
+@font-face {
+    font-family: bo1;
+    src: url(./fonts/BlackOpsOne-Regular.ttf);
+}
+@font-face {
+    font-family: gaegu;
+    src: url(./fonts/Gaegu-Regular.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+}
+
+.main {
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: dokdo;
+    text-transform: uppercase;
+    margin-left: 17%;
+}
+
+.mid {
+    background-color: #333333;
+    width: 50%;
+    padding: 62px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid > p {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 15px 170px 15px 170px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: bo1;
+}
+
+.generation-prompt {
+    position: relative;
+    width: 70%;
+}
+
+.generation-prompt > div {
+    margin-top: 30px;
+}
+.check {
+    display: flex;
+    justify-content: space-between;
+    font-family: gaegu;
+    font-size: 130%;
+}
+
+.check2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: gaegu;
+    font-size: 130%;
+}
+#long {
+    width: 30px;
+    height: 30px;
+}
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 30px;
+    width: 30%;
+    text-align: center;
+    background-color: #02ace2;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    font-family: pacifico;
+    font-size: 120%;
+}
+button:hover {
+    animation: rainbow 2s infinite;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: blue;
+    }
+    20% {
+        background-color: purple;
+    }
+    30% {
+        background-color: pink;
+    }
+    40% {
+        background-color: orange;
+    }
+    50% {
+        background-color: yellow;
+    }
+    60% {
+        background-color: yellowgreen;
+    }
+    70% {
+        background-color: green;
+    }
+    80% {
+        background-color: cyan;
+    }
+    90% {
+        background-color: black;
+    }
+    100% {
+        background-color: white;
+    }
+}
